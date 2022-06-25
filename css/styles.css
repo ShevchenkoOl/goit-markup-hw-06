@@ -621,7 +621,7 @@ address {
 .form-input:hover,
 .form-input:focus {
     border-color: var(--link-color);
-    outline: 1px, var(--link-color);
+    outline: transparent;
 }
 
 .form-field {
@@ -643,10 +643,9 @@ address {
     fill: currentColor;
 }
 
-.input-icon-contact:hover,
-.input-icon-contact:focus {
-    color: var(--link-color);
-
+.form-input:hover+.input-icon,
+.form-input:focus+.input-icon {
+    fill: var(--link-color);
 }
 
 .modal-comment {
@@ -654,6 +653,7 @@ address {
     height: 120px;
     resize: none;
     border-color: 1px, rgba(33, 33, 33, 0.2);
+
 }
 
 .modal-comment:hover,
@@ -665,6 +665,43 @@ address {
 .modal-submint {
     display: block;
     margin: 0 auto;
+}
+
+.modal-field {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.input-check:checked+.check-text::before {
+    background-color: var(--link-color);
+}
+
+.check-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    color: #757575;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.check-text a {
+    color: var(--link-color);
+}
+
+.check-text::before {
+    content: '';
+    width: 16;
+    height: 15;
+    border: 10px, rgba(34, 34, 34, 0.2);
+    display: block;
+}
+
+/*.link-check:hover,
+.link-check:focus {
+    color: var(--link-color);
 }
 
 /*.modal-submint{margin-bottom: 40px;}*/

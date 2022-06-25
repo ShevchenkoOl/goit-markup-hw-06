@@ -326,7 +326,12 @@
                                         width="20" height="20">
                                         <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                                     </svg></a></li>
-                        </ul>
+                                    <h3 class="footer-h3">Подпишитесь на рассылку</h3>
+                                    <div class="form-field">
+                                        <label class="form-label" for="email"></label>
+                                        <div class="input-icon-contact"><input type="email" class="form-input" name="mail-footer" id="mail-footer"/>
+                        </div>
+                    </ul>
                     </div>
             </ul>
         </div>
@@ -342,24 +347,43 @@
             <form class="modal-form">
                 <div class="form-field">
                     <label class="form-label" for="name">Имя</label>
-                   <div class="input-icon-contact"><input type="text" class="form-input" name="name" id="name"/>
-                <svg class="input-icon" width="12" height="12"> <use href="./images/symbol-defs.svg#icon-name"></use></svg>
-                </div></div> 
+                    <div class="input-icon-contact"><input type="text" class="form-input" name="name" id="name" />
+                        <svg class="input-icon" width="12" height="12">
+                            <use href="./images/symbol-defs.svg#icon-name"></use>
+                        </svg>
+                    </div>
+                </div>
                 <div class="form-field">
                     <label class="form-label" for="tel">Телефон</label>
-                    <div class="input-icon-contact"><input type="tel" class="form-input" name="tel" id="tel"/>
-                        <svg class="input-icon" width="13" height="13"> <use href="./images/symbol-defs.svg#icon-phone2"></use></svg>
-                    </div></div>
+                    <div class="input-icon-contact"><input type="tel" class="form-input" name="tel" id="tel" />
+                        <svg class="input-icon" width="13" height="13">
+                            <use href="./images/symbol-defs.svg#icon-phone2"></use>
+                        </svg>
+                    </div>
+                </div>
                 <div class="form-field">
                     <label class="form-label" for="email">Почта</label>
-                    <div class="input-icon-contact"><input type="email" class="form-input" name="mail" id="mail"/>
-                        <svg class="input-icon" width="15" height="12"> <use href="./images/symbol-defs.svg#icon-envelop2"></use></svg>
-                    </div></div>
+                    <div class="input-icon-contact"><input type="email" class="form-input" name="mail" id="mail" />
+                        <svg class="input-icon" width="15" height="12">
+                            <use href="./images/symbol-defs.svg#icon-envelop2"></use>
+                        </svg>
+                    </div>
+                </div>
                 <div class="form-field">
                     <label class="form-label" for="comment">Комментарий</label>
                     <textarea name="comment" id="comment" placeholder="Введите текст" class="modal-comment"></textarea>
-                    <button type="submit" class="main-button modal-submint">Отправить</button>
-                </form>
+                </div>
+                <div class="modal-field">
+                    <input type="checkbox" name="privacy" id="privacy" class="input-check" />
+                    <label for="privacy" class="check-text"><span>
+                            <svg class="check-icon" width="16" height="15">
+                                <use href="./images/symbol-defs.svg#icon-check"></use>
+                            </svg>
+                        </span>Соглашаюсь с рассылкой и принимаю&nbsp;<a href=""> Условия
+                            договора</a></label>
+                </div>
+                <button type="submit" class="main-button modal-submint">Отправить</button>
+            </form>
         </div>
     </div>
 
