@@ -326,14 +326,17 @@
                                         width="20" height="20">
                                         <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                                     </svg></a></li>
-                                    <h3 class="footer-h3">Подпишитесь на рассылку</h3>
-                                    <div class="form-field">
-                                        <label class="form-label" for="email"></label>
-                                        <div class="input-icon-contact"><input type="email" class="form-input" name="mail-footer" id="mail-footer"/>
-                        </div>
-                    </ul>
-                    </div>
+                        </ul>
+                        <div class="footer-email"><h3 class="footer-h3">Подпишитесь на рассылку</h3>
+                        <div class="form-field">
+                            <label class="form-label" for="email"></label>
+                            <div class="input-icon-contact"><span class="input-email">E-mail</span><input type="email"
+                                    class="form-footer-email" name="mail-footer" id="mail-footer" />
+                            </div>
+                        </div></div>
             </ul>
+        </div>
+        </ul>
         </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -374,12 +377,8 @@
                     <textarea name="comment" id="comment" placeholder="Введите текст" class="modal-comment"></textarea>
                 </div>
                 <div class="modal-field">
-                    <input type="checkbox" name="privacy" id="privacy" class="input-check" />
-                    <label for="privacy" class="check-text"><span>
-                            <svg class="check-icon" width="16" height="15">
-                                <use href="./images/symbol-defs.svg#icon-check"></use>
-                            </svg>
-                        </span>Соглашаюсь с рассылкой и принимаю&nbsp;<a href=""> Условия
+                    <input type="checkbox" name="privacy" id="privacy" class="input-check visually-hidden" />
+                    <label for="privacy" class="check-text">Соглашаюсь с рассылкой и принимаю&nbsp;<a href=""> Условия
                             договора</a></label>
                 </div>
                 <button type="submit" class="main-button modal-submint">Отправить</button>
