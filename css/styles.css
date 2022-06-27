@@ -667,6 +667,7 @@ address {
     height: 40px;
     padding-left: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
     outline: none;
     transition: background-color 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -710,6 +711,7 @@ address {
     height: 120px;
     resize: none;
     border-color: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
     transition: background-color 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
